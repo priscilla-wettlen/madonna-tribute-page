@@ -1,0 +1,32 @@
+@use 'variables';
+
+
+
+#Home {
+    background-color: #E4EDF2;
+    margin-bottom: 40px;
+    padding: 5px 0px 10px 0px;
+}
+
+#Bio {
+    background-color: #E4EDF2;
+    margin-bottom: 20px;
+    padding: 5px 0px 10px 0px;
+}
+
+#Contact {
+    background-color: #E4EDF2;
+    margin-bottom: 20px;
+    padding: 5px 0px 10px 0px;
+}
+
+h2{
+    font-family: variables.$heading-font;
+    margin: 10px;
+}
+
+h3{
+    font-family: variables.$main-font;
+    font-size: 1rem;
+    margin: 10px;
+}

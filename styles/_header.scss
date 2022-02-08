@@ -2,9 +2,15 @@
 
 @import 'nav';
 
+header {
+    margin-bottom: 20px;
+    
+}
+
 .container-fluid {
     margin: 0%;
     padding: 0%;
+    
 }
 
 img {
@@ -16,12 +22,12 @@ img {
 .title {
     display: flex;
     justify-content: space-between;
+
 }
 
 h1 {
     font-family: variables.$heading-font;
-    font-weight: bold;
-    text-align: right;
-    margin-right: 10px;
+    text-align: left;
+    margin-left: 10px;
 }
 
