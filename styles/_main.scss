@@ -6,19 +6,19 @@ main {
 
 
 #Home {
-    background-color: #E4EDF2;
+    background-color: variables.$section-color;
     margin-bottom: 40px;
     padding: 5px 0px 10px 0px;
 }
 
 #Bio {
-    background-color: #E4EDF2;
-    margin-bottom: 20px;
+    background-color: variables.$section-color;
+    margin-bottom: 40px;
     padding: 5px 0px 10px 0px;
 }
 
 #Contact {
-    background-color: #E4EDF2;
+    background-color: variables.$section-color;
     margin-bottom: 20px;
     padding: 5px 0px 10px 0px;
 }
@@ -46,6 +46,15 @@ h3{
     height: auto;
 }
 
+#here {
+    color: variables.$body-color;
+    text-decoration: underline;
+    :hover{
+        color: variables.$body-color;
+        text-decoration: underline;
+    }
+}
+
 .top {
     font-family: variables.$heading-font;
     font-weight: bold;
@@ -68,4 +77,13 @@ a {
         color: variables.$body-color;
         text-decoration: underline;
     }
+}
+
+form {
+    margin: 0px 0px 0px 10px;
+}
+
+button {
+    background-color: variables.$body-color;
+    color: variables.$section-color;
 }

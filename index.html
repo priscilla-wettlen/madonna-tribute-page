@@ -86,21 +86,29 @@
             Songwriters of All Time. 
             <br>
             <br>
-            Wanna know <i>even more</i> about Madonna? You can visit her Wikipedia page here.
+            Wanna know <i>even more</i> about Madonna? You can visit her Wikipedia page <a href="https://en.wikipedia.org/wiki/Madonna" id="here">here.</a>
             </h3>
         </section>
         <section id="Contact">
             <h2>//Contact</h2>
-            <h3>"Like a Virgin" is a tribute page dedicated the work of singer, songwriter, 
-                actress, producer and philantropist Madonna, also known as "The Queen of Pop".
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum laboriosam officia 
-                accusantium ad dicta ipsa assumenda repellat quod voluptates, natus dolor, libero 
-                veritatis exercitationem quisquam! Eius tempora incidunt ipsam dignissimos.
-                <br>
-                <br>
-                If you would like to know more about Madonna and her work, we invite you to explore
-                our website and get into the groove!
+            <h3>Get in touch with Madonna by filling out the form below:
+            <br>
+            <i>Fields marked with a (*) are mandatory.</i>
             </h3>
+            <form action="submit">
+                <input type="text" name="FirstName" placeholder="First Name*" required>
+                <br>
+                <br>
+                <input type="text" name="LastName" placeholder="Last Name">
+                <br>
+                <br>
+                <input type="email" name="Email" placeholder="E-mail*" required>
+                <br>
+                <br>
+                <textarea placeholder="Your message to Madonna here*" rows="5" cols="40" required></textarea>
+                <br>
+                <button type="submit" onclick="alert('Thank you! Madonna will be in touch with you as soon as she returns from her world tour.')">Submit</button>
+            </form>
         </section>
         <div class="top">
             <a href="index.html">Back to top</a>
@@ -108,7 +116,7 @@
 
     </main>
     <footer>
-
+        © Copyright Like a Virgin: A tribute to Madonna&nbsp;<span id="year"></span>
     </footer>
     <script src="main.js"></script>
 </body>
