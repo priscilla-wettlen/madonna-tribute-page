@@ -1,5 +1,8 @@
 @use 'variables';
 
+main {
+    color: variables.$body-color;
+}
 
 
 #Home {
@@ -29,4 +32,40 @@ h3{
     font-family: variables.$main-font;
     font-size: 1rem;
     margin: 10px;
+}
+
+.mdna01{
+    margin: 0px 10px 5px 10px;
+    width: 250px;
+    height: auto;
+}
+
+.mdna02 {
+    margin: 0px 0px 5px 10px;
+    width: 250px;
+    height: auto;
+}
+
+.top {
+    font-family: variables.$heading-font;
+    font-weight: bold;
+    text-align: right;
+    position: sticky;
+    bottom: 0;
+    margin-right: 10px;
+    text-decoration: none;
+    :hover {
+        color: variables.$body-color;
+        text-decoration: underline;
+    }
+
+}
+
+a {
+    color: variables.$body-color;
+    text-decoration: none;
+    :hover {
+        color: variables.$body-color;
+        text-decoration: underline;
+    }
 }
